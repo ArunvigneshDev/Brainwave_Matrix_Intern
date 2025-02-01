@@ -1,0 +1,128 @@
+/*Login form*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login-form{
+    width: 490px;
+    height: 480px;
+    background-color:black;
+    opacity: 0.7;
+    padding: 30px 30px 30px 50px;
+    margin: 6% 10% 0px 54%;
+    border-radius: 8px;
+    color: white;
+}
+.login-form h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email,.password{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-form input{
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    background-color: rgb(200, 196, 196);
+}
+.login-form .email{
+    padding-top: 20px;
+}
+.login-form .email,.login-form .password{
+    margin: 25px 0px 11px 0px;
+}
+.login-form button{
+    width: 470px;
+    height: 53px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 50px 0px 0px 0px;
+    background-color: gray;
+}
+.login-form button:hover{
+    background-color: rgb(158, 152, 152);
+}
+.login-form .not-member{
+    margin: 20px 0px 0px 120px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-form enum{
+    color: rgb(250, 31, 31);
+    font-weight: 599;
+    font-size: 22px;
+}
+.Intro .navbar a{
+    text-decoration: none;
+    color: white;
+}
+.login-body{
+    background-image: url(images/loginbg8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+@media screen and (max-width:600px){
+    .login-form{
+        width: 80%;
+        height: auto;
+        padding: 30px 0 30px 30px;
+        margin: 160px 0 0 20px;
+    }
+    .login-form h2{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .email,.password{
+        font-size: 20px;
+    }
+    .login-form input{
+        width: 80%;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 17px;
+    }
+    .login-form .email{
+        padding-top: 20px;
+    }
+    .login-form .email,.login-form .password{
+        margin: 25px 0px 11px 0px;
+    }
+    .login-form button{
+        width: 88%;
+        height: 43px;
+        font-size: 18px;
+        margin: 40px 0px 0px 0px;
+    }
+    .login-form .not-member{
+        margin: 20px 0px 0px 18px;
+        font-size: 18px;
+    }
+    .login-form enum{
+        color: rgb(250, 31, 31);
+        font-weight: 599;
+        font-size:18px;
+    }
+    .Intro .navbar a{
+        text-decoration: none;
+        color: white;
+    }
+    .login-body{
+        background-image: url(images/loginbg8.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+}

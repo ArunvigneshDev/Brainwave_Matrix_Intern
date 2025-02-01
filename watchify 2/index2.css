@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Intro Section */
+.Intro {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/watch1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Logo */
+#logo {
+    color: white;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 42px 0px 0px 52px;
+}
+
+.Intro .navbar, ul, li {
+    display: flex;
+    justify-content: left;
+}
+
+/* Navbar */
+.UL {
+    margin-left: 0;
+}
+.UL li {
+    margin: 33px 40px 0px 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+li:nth-child(1) {
+    margin-left: 520px;
+}
+
+/* Intro Button */
+.introbutton {
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.introbutton:hover {
+    background-color: rgb(99, 94, 94);
+}
+
+/* Code Words */
+.codeword1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 10% 0px 0px 120px;
+}
+.codeword2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 24px 0px 0px 120px;
+}
+
+/* Responsive Buttons */
+.design, .virtualsample {
+    background-color: rgb(94, 88, 88);
+    border-color: rgb(76, 75, 74);
+    color: white;
+    width: 230px;
+    font-weight: 600;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 135px;
+    margin-left: 100px;
+}
+.design {
+    margin-left: 120px;
+    padding: 5px;
+}
+.virtualsample {
+    width: 255px;
+    padding: 5px;
+}
+.design:hover, .virtualsample:hover, .collections button:hover {
+    background-color: rgb(134, 123, 123);
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+}
+
+/* Store Section */
+.store {
+    background-color: black;
+    width: 100%;
+    height: 810px;
+    background-image: url(images/watch3.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.store p {
+    width: 550px;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    padding: 6% 25px 0px 55%;
+}
+
+/* New Arrivals */
+.newarrivals {
+    background-color: white;
+    width: 100%;
+    height: 870px;
+    background-size: 900px 810px;
+}
+.caption {
+    color: black;
+    padding: 65px 0px 0px 64px;
+    font-size: 42px;
+}
+.arrivalimg1, .arrivalimg2, .arrivalimg3, .arrivalimg4 {
+    width: 250px;
+    height: 430px;
+    padding: 30px;
+    margin-top: 40px;
+    background-color: rgb(249, 250, 251);
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* Collections */
+.collections {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: white;
+}
+.collections .collh3 {
+    padding: 6% 0px 0px 6%;
+    font-size: 37px;
+}
+.collimg1, .collimg2, .collimg3, .collimg4 {
+    width: 250px;
+    height: 430px;
+    padding: 30px;
+    background-color: rgb(251, 249, 249);
+    text-align: center;
+    border-radius: 12px;
+}
+
+/* Footer */
+.footer1 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    /* Smaller logo and font sizes */
+    #logo {
+        font-size: 28px;
+        margin: 25px 0px 0px 30px;
+    }
+    .UL li {
+        font-size: 20px;
+        margin: 20px 20px 0px 10px;
+    }
+    .codeword1 {
+        font-size: 40px;
+        margin-left: 80px;
+    }
+    .codeword2 {
+        font-size: 30px;
+        margin-left: 80px;
+    }
+    /* Reduce button sizes */
+    .introbutton, .design, .virtualsample {
+        width: 100px;
+        height: 50px;
+        font-size: 16px;
+    }
+    /* Adjust images and text */
+    .arrivalimg1, .arrivalimg2, .arrivalimg3, .arrivalimg4,
+    .collimg1, .collimg2, .collimg3, .collimg4 {
+        width: 200px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Hamburger menu */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+        margin: 30px 0 0 30px;
+    }
+    .UL {
+        display: none;
+    }
+    /* Stack items vertically */
+    .imgs, .collections .collimages, .customers {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Smaller buttons and text */
+    .codeword1 {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    .codeword2 {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .introbutton, .design, .virtualsample {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+    /* Adjust text alignment */
+    .ourstore, .store p, .caption, .collh3, .what {
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    /* Footer adjustments */
+    .footer1 {
+        padding: 20px;
+    }
+    .subscribe-input input, .subscribe-input button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .subscription {
+        padding: 0;
+        text-align: center;
+    }
+}

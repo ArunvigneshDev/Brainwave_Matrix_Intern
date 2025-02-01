@@ -1,0 +1,845 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Intro{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/watch1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100vw 100%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+ #logo{
+    color: white;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 42px 0px 0px 52px;
+}
+.Intro .navbar,ul,li{
+    display: flex;
+    justify-content: left;
+}
+.UL{
+    margin-left: 50px;
+}
+.UL li{
+    margin: 33px 60px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+li:nth-child(1){
+    margin-left: 520px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.introbutton{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.introbutton:hover{
+    background-color: rgb(99, 94, 94);
+}
+
+.codeword1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10% 0px 0px 120px;
+}
+.codeword2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 24px 0px 0px 120px;
+}
+.design,.virtualsample{
+    background-color: rgb(94, 88, 88);
+    border-color: rgb(76, 75, 74);
+    color: white;
+    width: 230px;
+    font-weight: 600;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 135px;
+    margin-left: 100px;
+}
+.design{
+    margin-left: 120px;
+    padding: 5px;
+}
+.virtualsample{
+    width:255px ;
+    padding: 5px;
+}
+.design:hover,.virtualsample:hover,.collections button:hover{
+    background-color: rgb(134, 123, 123);
+}
+
+.hamburger {
+    display: none;
+}
+
+/*store*/
+
+.store{
+    background-color:black;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/watch3.jpg);
+    background-repeat:no-repeat;
+    background-size: 800px 800px;    
+}
+
+.store p{
+    width: 550px;
+    height: 450px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 6% 25px 0px 55%;
+    background-image: none;
+}
+.ourstore{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8% 25px 0px 55%;
+} 
+
+/*New Arrivals*/
+
+.newarrivals{
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+    background-size: 900px 810px;
+    position: relative;
+}
+
+.newarrivals h3{
+    font-size: 40px;
+    text-align: center;
+}
+.caption{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 55px 0px 0px 64px;
+    font-size: 42px;
+    margin: 0 0 50px 40px;
+    padding-top: 65px;
+}
+.arrivalimg1,.arrivalimg2,.arrivalimg3,.arrivalimg4{
+    width: 200px;
+    height: auto;
+    padding: 25px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(249, 250, 251); 
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.arrivalimg1 img,.arrivalimg2 img,.arrivalimg3 img,.arrivalimg4 img{
+    border-radius: 6px;
+    padding-top: 29px;
+}
+.w1name,.w2name,.w3name,.w4name{
+    color: black;
+    font-size: 1px;
+    padding-top: 20px;
+}
+.w1price,.w2price,.w3price,.w4price{
+    color: black;
+    font-size: 25px;
+    padding-top: 28px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.newarrivals .newh4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 85%;
+}
+
+/*collections*/
+.collections{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    position: relative;
+}
+.collections .collh3{
+    color: black;
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6% 0px 0px 6%;
+    text-align: center;
+}
+.collections .collimages{
+    padding: 4% 3% 0px 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.collimg1,.collimg2,.collimg3,.collimg4{
+    width: 250px;
+    height: 430px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(251, 249, 249); 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+    border-radius: 12px;
+}
+.collimg1 img,.collimg2 img,.collimg3 img,.collimg4 img{
+    border-radius: 6px;
+    padding-top: 29px;
+    padding-bottom: 18px;
+}
+.collections .collimages .collimg1 .c1name,.collections .collimages .collimg2 .c2name,.collections .collimages .collimg3 .c3name,.collections .collimages .collimg4 .c4name{
+    font-size: 23px;
+    padding: 15px;
+}
+.collections .collh4{
+    font-size: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 0px 0px 0px 88%;
+}
+.collections .collh4 a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 110px;
+    left: 85%;
+}
+.collections .collimages .arrivalimg1 .c1name,.arrivalimg2 .c2name,.arrivalimg3 .c3name,.arrivalimg4 .c4name{
+    font-size: 23px;
+    margin: 15px;
+}
+.collections .collimages .arrivalimg1 .c1price,.arrivalimg2 .c2price,.arrivalimg3 .c3price,.arrivalimg4 .c4price{
+    font-size: 20px;
+    margin: 15px;
+}
+
+/* Footer */
+
+.sponsers{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 65px;
+}
+.line1{
+    padding-top: 0px;
+}
+.line1,.line2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 0px 30px 50px;
+    justify-content: space-around;
+}
+.line1 img,.line2 img{
+    box-shadow:cap
+}
+.sponsers .brand{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 50px 0px 5% 6%;
+}
+.sponsers .brand{
+    font-size: 35px;
+    font-weight: bold;
+}
+.sponsers img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* Customer */
+
+.customer{
+    background-color:rgb(111, 110, 110);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.cust1,.cust2,.cust3{
+    width: 370px;
+    height: 400px;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(247, 245, 245);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 30px;
+    text-align:justify;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    opacity: 0.8;
+} 
+.customers{
+    display: flex;
+    justify-content: space-around;
+}
+.customer .what{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0px 0px 0%;
+}
+.customers h3{
+    font-size: 25px;
+    margin: 0px 0px 40px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Foot content*/
+
+.foot-content {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 460px;
+    color: white;
+    display: flex;
+    justify-content: space-around; /* Spacing elements equally */
+    padding-top: 60px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.doggeee, .social, .service, .activity, .subscription {
+    flex: 1;
+    margin-top: 50px; /* Give space at the top */
+    margin:60px;
+}
+
+.doggeee h3, .social h3, .service h3, .activity h3, .subscription h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.doggeee ul, .social ul, .service ul, .activity ul {
+    list-style: none;
+    padding: 0;
+}
+
+.doggeee li, .social li, .service li, .activity li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.doggeee li:hover, .social li:hover, .service li:hover, .activity li:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.subscription {
+    width: 500px;
+    height: 100%;
+    margin-left: 60px;
+}
+
+.subscription h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subscribe-input {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.subscription .subscribe-input input {
+    width: 250px;
+    height: 40px;
+    padding: 3px 20px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #575556;
+    font-size: 14px;
+    color: #000;
+}
+
+.subscribe-input button {
+    width: 80px;
+    height: 47px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 0 7px 7px 0;
+    background-color: #868586;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe-input button:hover {
+    background-color: #b1abb1;
+}
+
+/*Footer*/
+
+.footer1{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 790px;
+    color: white;
+}
+.footer1 img{
+    width: 100px;
+    height: 100px;
+}
+.footer1 .z{
+    padding: 2% 5% 0% 42%;
+}
+.footer1 .ul1{
+    margin:5px 0px 0px 280px;
+}
+
+.footer1 ul li{
+  margin: 220px 35px 25px 60px;
+}
+.footer1 ul li img{
+    border-radius: 58px;
+    width: 40px;
+    height: 40px;
+}
+.footer1 .z{
+    margin-left: 50px;
+}
+.footer1 ul li .pin{
+    border-radius: 45px;
+}
+.copyrights{
+    color: grey;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:600px){
+    #logo{
+        font-size: 27px;
+        margin: 25px 0px 0px 30px;
+    }
+    
+    .codeword1{
+        font-size:42px;
+        margin: 45% 0px 0px 50px;
+        text-align: left;
+    }
+    .codeword2{
+        font-size: 32px;
+        margin: 20px 0px 0px 50px;
+    }
+    .design,.virtualsample{
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .virtualsample{
+        width:255px ;
+        padding: 5px;
+        margin-top: 50px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .UL {
+        display: none; /* Hide the nav items by default on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+        z-index: 999;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .UL li {
+        margin: 0px 0;
+        background-color: gray;
+        margin: 10px;
+        width: 90%;
+    }
+
+    .UL li:hover{
+        background-color: gray;
+    }
+
+    .introbutton{
+        width: 100%;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    /* Hamburger menu styling */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin: 25px 0 0 150px;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 6px;
+        background-color: white;
+        transition: 0.4s;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+
+    .navbar.active .UL {
+        display: flex; /* Show the nav items when hamburger is active */
+    }
+
+    .store p{
+        font-size: 22px;
+        width: 80%;
+        text-align: justify;
+        padding: 15% 25px 0px 10%;
+    }
+    .ourstore{
+        font-size: 30px;
+        text-align: center;
+        padding: 100px 25px 0px 15%;
+    } 
+    
+    .store{
+        background-color:black;
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/watch3.jpg);
+        background-repeat:no-repeat;
+        background-size: 100% 100vh;    
+    }
+
+    /*New arrivals*/
+
+    .newarrivals{
+        background-color:white;
+        width: 100%;
+        height: 100%;          
+    }
+    .newarrivals .newh4 a{
+        font-size: 18px;
+        position: absolute;
+        top: 170px;
+        left:60%;
+    }
+    .newarrivals .caption{
+        text-align: center;
+        font-size: 10px;
+        margin: 70px 0 50px 0;
+        font-size: 32px;
+        padding: 0;
+    }
+
+    .arrivalimg1,.arrivalimg2,.arrivalimg3,.arrivalimg4{
+        width: 70%;
+        height: 420px;
+        margin-top: 40px;
+    }
+    .arrivalimg1 img,.arrivalimg2 img,.arrivalimg3 img,.arrivalimg4 img{
+        border-radius: 6px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .w1name,.w2name,.w3name,.w4name{
+        font-size: 32px;
+    }
+    .w1price,.w2price,.w3price,.w4price{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .arrival-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .newarrivals .newh4 a{
+        text-decoration: none;
+    }
+    .newarrivals .newh4{
+        padding: 70px 0px 10px 0px ;
+        font-size: 20px;
+    }
+
+    /* Mobile adjustments for the collections section */
+    .collections {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+    }
+  
+    .collections .collh3 {
+      font-size: 30px;
+      text-align: center;
+      margin:120px 0 80px 0;
+      padding: 0;
+    }
+  
+    .collections .collimg1,.collimg2,.collimg3,.collimg4 {
+      width: 65%; /* Adjust card width to fit better on smaller screens */
+      margin-bottom: 20px;
+      text-align: center;
+      margin: 25px 0 25px 0;
+    }
+  
+    .collections .card img {
+      width: 100%; /* Ensures the image takes full width of the card */
+      height: auto;
+    }
+  
+    .collections .collh4 a{
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        top: 210px;
+        left: 55%;
+    }
+
+    /* sponsers */
+    
+    
+    .line1{
+        padding-top: 0px;
+    }
+    .line1,.line2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:0;
+        gap: 30px;
+    }
+    .line2 :nth-child(1){
+        margin: 25px 0 0 0;
+    }
+    .sponsers .brand{
+        margin: 0px 0px 85px 0%;
+    }
+    
+    .sponsers .brand{
+        font-size: 32px;
+    }
+    .sponsers img{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    } 
+
+    /* customers */
+
+    .customer{
+        width: 100%;
+        height: auto;
+        margin-top: 1300px;
+        background-color:#868586;
+    }
+    .cust1,.cust2,.cust3{
+        width: 60%;
+        height: auto;
+        color: black;
+        font-size: 20px;
+    } 
+    .customers{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .customer .what{
+        padding: 0;
+        text-align: center;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px 20px 0px 20px;
+    }
+    .customers h3{
+        font-size: 25px;
+    }
+
+    /*Footer*/
+
+
+    .doogee,.social,.service,.activity,.subscription{
+        margin: 50px;
+    }
+    
+    .foot-content li{
+        margin: 10px 0 10px 0;
+    }
+    .foot-content h3{
+        font-size: 22px;
+    }
+    .foot-content .subscription{
+        width: 100%;
+        height: 150px;
+        margin-left: 60px;
+    }
+    .subscription{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscription .subscribe-input{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .subscription .subscribe-input input{
+        width:190px;
+        height: 35px;
+    }
+    .subscribe-input button{
+        width: 80px;
+        height: 42px;
+    }
+
+    .footer1{
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+    .footer1 .z{
+        padding: 30% 5% 0% 27%;
+        height: 80px;
+        width: 80px;
+    }
+    .footer1 .ul1{
+        margin:0px;
+        margin:50px 0 100px 10px;
+    }
+    
+    .footer1 ul li{
+      margin: 0px;
+    }
+    .footer1 ul li img{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin: 8px;
+    }
+    .footer1 .z{
+        margin-left: 50px;
+    }
+    .footer1 ul li .pin{
+        border-radius: 22px;
+    }
+    .foot-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .copyrights{
+        margin-top: 70px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+
+    .main-container { /* Assuming .main-container wraps both sections */
+        display: flex;
+        flex-direction: column;
+
+      }
+    
+      .newarrivals {
+        order: 1 !important; /* This should come first */
+      }
+    
+      .collections {
+        order: 2 !important; /* This will appear below new-arrival */
+      }
+
+      .sponsers {
+        order: 3 !important; 
+      }
+
+      .customer{
+        order: 4 !important; 
+      }
+
+      .foot-content{
+        order: 4 !important; 
+      }
+
+      .footer1{
+        order: 5 !important;
+      }
+
+}

@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#logo{
+    color: black;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 0px 0px 40px;
+}
+.navbar,ul,li{
+    display: flex;
+    justify-content: left;
+}
+.UL{
+    margin-left: 50px;
+}
+.UL li button{
+    margin: 33px 40px 0px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #b1aeb1;
+}
+li:nth-child(1){
+    margin-left: 520px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Intro Button */
+.introbutton {
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.introbutton:hover {
+    background-color: rgb(99, 94, 94);
+}
+
+.kidscollection-head-img{
+    width: 100vw;
+    height: 200px;
+    background-image: url(images/kidsbg4.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 200px;
+}
+
+.kidscollection-head-img h2{
+    text-align: right;
+    font-size: 30px;
+    color: black;
+    padding: 0px 150px 0 0;
+}
+
+.kidscollection-content .back{
+    width: 45px;
+    height: 45px;
+    
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    background-color:#6a686a;
+    color: white;
+    margin: 25px 0px 20px 25px;
+}
+
+.kidscollection-content{
+    width: 100%;
+    height: auto;
+}
+
+.kidscollection-content .kids-watches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:90px 50px 0px 0px;
+    flex-wrap: wrap;
+}
+.kidscollection-content .kids-watch1,.kids-watch2,.kids-watch3,.kids-watch4,.kids-watch5,.kids-watch6,.kids-watch7,.kids-watch8,.kids-watch9,.kids-watch10,.kids-watch11,.kids-watch12,.kids-watch13,.kids-watch14,.kids-watch15,.kids-watch16,.kids-watch17,.kids-watch18,.kids-watch19,.kids-watch20,.kids-watch21,.kids-watch22,.kids-watch23,.kids-watch24,.kids-watch25,.kids-watch26,.kids-watch27,.kids-watch28,.kids-watch29,.kids-watch30,.kids-watch31,.kids-watch32{
+    width: 250px;
+    height: 650px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    margin:0px 0px 130px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.kidscollection-content .kids-watch1:hover,.kids-watch2:hover,.kids-watch3:hover,.kids-watch4:hover,.kids-watch5:hover,.kids-watch6:hover,.kids-watch7:hover,.kids-watch8:hover,.kids-watch9:hover,.kids-watch10:hover,.kids-watch11:hover,.kids-watch12:hover,.kids-watch13:hover,.kids-watch14:hover,.kids-watch15:hover,.kids-watch16:hover,.kids-watch17:hover,.kids-watch18:hover,.kids-watch19:hover,.kids-watch20:hover,.kids-watch21:hover,.kids-watch22:hover,.kids-watch23:hover,.kids-watch24:hover,.kids-watch25:hover,.kids-watch26:hover,.kids-watch27:hover,.kids-watch28:hover,.kids-watch29:hover,.kids-watch30:hover,.kids-watch31:hover,.kids-watch32:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.kidscollection-content .kids-watch1 img,.kids-watch2 img,.kids-watch3 img,.kids-watch4 img,.kids-watch5 img,.kids-watch6 img,.kids-watch7 img,.kids-watch8 img,.kids-watch9 img,.kids-watch10 img,.kids-watch11 img,.kids-watch12 img,.kids-watch13 img,.kids-watch14 img,.kids-watch15 img,.kids-watch16 img,.kids-watch17 img,.kids-watch18 img,.kids-watch19 img,.kids-watch20 img,.kids-watch21 img,.kids-watch22 img,.kids-watch23 img,.kids-watch24 img,.kids-watch25 img,.kids-watch26 img,.kids-watch27 img,.kids-watch28 img,.kids-watch29 img,.kids-watch30 img,.kids-watch31 img,.kids-watch32 img{
+    width: 220px;
+    height: 337px;
+    margin: 18px 5px 28px 0px;
+}
+.kidscollection-content .kids-watches .discount,.kidscollection-content .kids-watches .discount{
+    width: 92px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 7px;
+    border: 2px solid rgb(101, 95, 95);
+    margin: 25px 0px 0px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.kidscollection-content h3,.price,.buy{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kidscollection-content .price{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.kidscollection-content .buy{
+    color: red;
+    font-size: 15px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(192, 14, 14);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.kidscollection-content .price{
+    margin:15px 0px 20px 0px;
+}
+.kidscollection-content .price s{
+    color: #787677;
+}
+.kidscollection-head-img .kidscollection-img{
+    padding-top: 100px;
+}
+
+/*Footer*/
+
+.footer1{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.footer1 img{
+    width: 70px;
+    height: 70px;
+    margin-top: 200px;
+}
+.footer1 .z{
+    padding: 0% 5% 0% 43%;
+}
+.footer1 .ul1{
+    margin:5px 0px 0px 450px;
+    padding-bottom: 100px;
+}
+
+.footer1 ul li{
+  margin: 0px 30px 25px 30px;
+}
+.footer1 ul li img{
+    border-radius: 58px;
+    width: 30px;
+    height: 30px;
+}
+.footer1 .z{
+    margin-left: 50px;
+}
+.footer1 ul li .pin{
+    border-radius: 45px;
+}
+.copyrights{
+    color: grey;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    /*Nav bar*/
+
+    #logo{
+        font-size: 27px;
+        margin: 25px 0px 0px 30px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .UL {
+        display: none; /* Hide the nav items by default on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+        z-index: 999;
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+
+    .UL li {
+        margin: 0px 0;
+        background-color: gray;
+        margin-left: 20px;
+    }
+
+    .UL li:hover{
+        background-color: gray;
+    }
+
+    .introbutton{
+        width: 100%;
+        height:50px;
+        background-color: black;
+    }
+
+    /* Hamburger menu styling */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin: 25px 0 0 150px;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 6px;
+        background-color: black;
+        transition: 0.4s;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+
+    .navbar.active .UL {
+        display: flex; /* Show the nav items when hamburger is active */
+    }
+
+    .kidscollection-head-img h2{
+        text-align: right;
+        font-size: 24px;
+        padding:0;
+        margin: 20px 15px 0px 30%;
+    }
+
+    /*Footer*/
+
+    .footer1{
+        width: 100%;
+        height: 700px;
+        color: white;
+        margin: 0;
+    }
+    .footer1 .z{
+        padding: 30% 5% 0% 27%;
+        height: 80px;
+        width: 80px;
+    }
+    .footer1 .ul1{
+        margin:0px;
+        margin:50px 0 100px 10px;
+    }
+    
+    .footer1 ul li{
+      margin: 0px;
+    }
+    .footer1 ul li img{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin: 8px;
+    }
+    .footer1 .z{
+        margin-left: 50px;
+    }
+    .footer1 ul li .pin{
+        border-radius: 22px;
+    }
+    .copyrights{
+        margin-top: 70px;
+        font-size: 14px;
+        text-align: center;
+    }
+}

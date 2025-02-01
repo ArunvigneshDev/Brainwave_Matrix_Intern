@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#logo{
+    color: black;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 0px 0px 40px;
+}
+.navbar,ul,li{
+    display: flex;
+    justify-content: left;
+}
+.UL{
+    margin-left: 50px;
+}
+.UL li button{
+    margin: 33px 40px 0px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #b1aeb1;
+}
+li:nth-child(1){
+    margin-left: 520px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Intro Button */
+.introbutton {
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.introbutton:hover {
+    background-color: rgb(99, 94, 94);
+}
+
+.womenscollection-head-img{
+    width: 100vw;
+    height: 200px;
+    background-image: url(images/womens-head-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 200px;
+}
+
+.womenscollection-head-img h2{
+    text-align: right;
+    font-size: 30px;
+    color: #646264;
+    padding: 0px 150px 0 0;
+}
+
+.womenscollection-content .back{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    background-color:#6a686a;
+    color: white;
+    margin: 25px 0px 20px 25px;
+}
+
+.womenscollection-content{
+    width: 100%;
+    height: auto;
+}
+
+.womenscollection-content .womens-watches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:90px 50px 0px 0px;
+    flex-wrap: wrap;
+}
+.womenscollection-content .womens-watch1,.womens-watch2,.womens-watch3,.womens-watch4,.womens-watch5,.womens-watch6,.womens-watch7,.womens-watch8,.womens-watch9,.womens-watch10,.womens-watch11,.womens-watch12,.womens-watch13,.womens-watch14,.womens-watch15,.womens-watch16,.womens-watch17,.womens-watch18,.womens-watch19,.womens-watch20,.womens-watch21,.womens-watch22,.womens-watch23,.womens-watch24,.womens-watch25,.womens-watch26,.womens-watch27,.womens-watch28,.womens-watch29,.womens-watch30,.womens-watch31,.womens-watch32{
+    width: 250px;
+    height: 650px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    margin:0px 0px 130px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.womenscollection-content .womens-watch1:hover,.womens-watch2:hover,.womens-watch3:hover,.womens-watch4:hover,.womens-watch5:hover,.womens-watch6:hover,.womens-watch7:hover,.womens-watch8:hover,.womens-watch9:hover,.womens-watch10:hover,.womens-watch11:hover,.womens-watch12:hover,.womens-watch13:hover,.womens-watch14:hover,.womens-watch15:hover,.womens-watch16:hover,.womens-watch17:hover,.womens-watch18:hover,.womens-watch19:hover,.womens-watch20:hover,.womens-watch21:hover,.womens-watch22:hover,.womens-watch23:hover,.womens-watch24:hover,.womens-watch25:hover,.womens-watch26:hover,.womens-watch27:hover,.womens-watch28:hover,.womens-watch29:hover,.womens-watch30:hover,.womens-watch31:hover,.womens-watch32:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.womenscollection-content .womens-watch1 img,.womens-watch2 img,.womens-watch3 img,.womens-watch4 img,.womens-watch5 img,.womens-watch6 img,.womens-watch7 img,.womens-watch8 img,.womens-watch9 img,.womens-watch10 img,.womens-watch11 img,.womens-watch12 img,.womens-watch13 img,.womens-watch14 img,.womens-watch15 img,.womens-watch16 img,.womens-watch17 img,.womens-watch18 img,.womens-watch19 img,.womens-watch20 img,.womens-watch21 img,.womens-watch22 img,.womens-watch23 img,.womens-watch24 img,.womens-watch25 img,.womens-watch26 img,.womens-watch27 img,.womens-watch28 img,.womens-watch29 img,.womens-watch30 img,.womens-watch31 img,.womens-watch32 img{
+    width: 220px;
+    height: 337px;
+    margin: 18px 5px 28px 0px;
+}
+.womenscollection-content .womens-watches .discount,.womenscollection-content .womens-watches .discount{
+    width: 92px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 7px;
+    border: 2px solid rgb(101, 95, 95);
+    margin: 25px 0px 0px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.womenscollection-content h3,.price,.buy{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.womenscollection-content .price{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.womenscollection-content .buy{
+    color: red;
+    font-size: 15px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(192, 14, 14);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.womenscollection-content .price{
+    margin:15px 0px 20px 0px;
+}
+.womenscollection-content .price s{
+    color: #787677;
+}
+.womenscollection-head-img .womenscollection-img{
+    padding-top: 100px;
+}
+
+/*Footer*/
+
+.footer1{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.footer1 img{
+    width: 70px;
+    height: 70px;
+    margin-top: 200px;
+}
+.footer1 .z{
+    padding: 0% 5% 0% 43%;
+}
+.footer1 .ul1{
+    margin:5px 0px 0px 450px;
+    padding-bottom: 100px;
+}
+
+.footer1 ul li{
+  margin: 0px 30px 25px 30px;
+}
+.footer1 ul li img{
+    border-radius: 58px;
+    width: 30px;
+    height: 30px;
+}
+.footer1 .z{
+    margin-left: 50px;
+}
+.footer1 ul li .pin{
+    border-radius: 45px;
+}
+.copyrights{
+    color: grey;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    /*Nav bar*/
+
+    #logo{
+        font-size: 27px;
+        margin: 25px 0px 0px 30px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .UL {
+        display: none; /* Hide the nav items by default on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+        z-index: 999;
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+
+    .UL li {
+        margin: 0px 0;
+        background-color: gray;
+        margin-left: 20px;
+    }
+
+    .UL li:hover{
+        background-color: gray;
+    }
+
+    .introbutton{
+        width: 100%;
+        height:50px;
+        background-color: black;
+    }
+
+    /* Hamburger menu styling */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin: 25px 0 0 150px;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 6px;
+        background-color: black;
+        transition: 0.4s;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+
+    .navbar.active .UL {
+        display: flex; /* Show the nav items when hamburger is active */
+    }
+
+    .womenscollection-head-img h2{
+        text-align: right;
+        font-size: 24px;
+        padding:0;
+        margin: 20px 15px 0px 30%;
+    }
+
+    /*Footer*/
+
+    .footer1{
+        width: 100%;
+        height: 700px;
+        color: white;
+        margin: 0;
+    }
+    .footer1 .z{
+        padding: 30% 5% 0% 27%;
+        height: 80px;
+        width: 80px;
+    }
+    .footer1 .ul1{
+        margin:0px;
+        margin:50px 0 100px 10px;
+    }
+    
+    .footer1 ul li{
+      margin: 0px;
+    }
+    .footer1 ul li img{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin: 8px;
+    }
+    .footer1 .z{
+        margin-left: 50px;
+    }
+    .footer1 ul li .pin{
+        border-radius: 22px;
+    }
+    .copyrights{
+        margin-top: 70px;
+        font-size: 14px;
+        text-align: center;
+    }
+}

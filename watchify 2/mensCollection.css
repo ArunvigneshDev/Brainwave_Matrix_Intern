@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#logo{
+    color: black;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 0px 0px 40px;
+}
+.navbar,ul,li{
+    display: flex;
+    justify-content: left;
+}
+.UL{
+    margin-left: 50px;
+}
+.UL li button{
+    margin: 33px 40px 0px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #b1aeb1;
+}
+li:nth-child(1){
+    margin-left: 520px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Intro Button */
+.introbutton {
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.introbutton:hover {
+    background-color: rgb(99, 94, 94);
+}
+
+.menscollection-head-img{
+    width: 100vw;
+    height: 200px;
+    background-image: url(images/mens-head-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 200px;
+}
+
+.menscollection-head-img h2{
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    padding: 0px 150px 0 0;
+}
+
+.menscollection-content .back{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    background-color:#6a686a;
+    color: white;
+    margin: 25px 0px 20px 25px;
+}
+
+.menscollection-content{
+    width: 100%;
+    height: auto;
+}
+
+.menscollection-content .mens-watches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:90px 50px 0px 0px;
+    flex-wrap: wrap;
+}
+.menscollection-content .mens-watch1,.mens-watch2,.mens-watch3,.mens-watch4,.mens-watch5,.mens-watch6,.mens-watch7,.mens-watch8,.mens-watch9,.mens-watch10,.mens-watch11,.mens-watch12,.mens-watch13,.mens-watch14,.mens-watch15,.mens-watch16,.mens-watch17,.mens-watch18,.mens-watch19,.mens-watch20,.mens-watch21,.mens-watch22,.mens-watch23,.mens-watch24,.mens-watch25,.mens-watch26,.mens-watch27,.mens-watch28,.mens-watch29,.mens-watch30,.mens-watch31,.mens-watch32{
+    width: 250px;
+    height: 650px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    margin:0px 0px 130px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.menscollection-content .mens-watch1:hover,.mens-watch2:hover,.mens-watch3:hover,.mens-watch4:hover,.mens-watch5:hover,.mens-watch6:hover,.mens-watch7:hover,.mens-watch8:hover,.mens-watch9:hover,.mens-watch10:hover,.mens-watch11:hover,.mens-watch12:hover,.mens-watch13:hover,.mens-watch14:hover,.mens-watch15:hover,.mens-watch16:hover,.mens-watch17:hover,.mens-watch18:hover,.mens-watch19:hover,.mens-watch20:hover,.mens-watch21:hover,.mens-watch22:hover,.mens-watch23:hover,.mens-watch24:hover,.mens-watch25:hover,.mens-watch26:hover,.mens-watch27:hover,.mens-watch28:hover,.mens-watch29:hover,.mens-watch30:hover,.mens-watch31:hover,.mens-watch32:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.menscollection-content .mens-watch1 img,.mens-watch2 img,.mens-watch3 img,.mens-watch4 img,.mens-watch5 img,.mens-watch6 img,.mens-watch7 img,.mens-watch8 img,.mens-watch9 img,.mens-watch10 img,.mens-watch11 img,.mens-watch12 img,.mens-watch13 img,.mens-watch14 img,.mens-watch15 img,.mens-watch16 img,.mens-watch17 img,.mens-watch18 img,.mens-watch19 img,.mens-watch20 img,.mens-watch21 img,.mens-watch22 img,.mens-watch23 img,.mens-watch24 img,.mens-watch25 img,.mens-watch26 img,.mens-watch27 img,.mens-watch28 img,.mens-watch29 img,.mens-watch30 img,.mens-watch31 img,.mens-watch32 img{
+    width: 220px;
+    height: 337px;
+    margin: 18px 5px 28px 0px;
+}
+.menscollection-content .mens-watches .discount,.menscollection-content .mens-watches .discount{
+    width: 92px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 7px;
+    border: 2px solid rgb(101, 95, 95);
+    margin: 25px 0px 0px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.menscollection-content h3,.price,.buy{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menscollection-content .price{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.menscollection-content .buy{
+    color: red;
+    font-size: 15px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(192, 14, 14);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menscollection-content .price{
+    margin:15px 0px 20px 0px;
+}
+.menscollection-content .price s{
+    color: #787677;
+}
+.menscollection-head-img .menscollection-img{
+    padding-top: 100px;
+}
+
+/*Footer*/
+
+.footer1{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.footer1 img{
+    width: 70px;
+    height: 70px;
+    margin-top: 200px;
+}
+.footer1 .z{
+    padding: 0% 5% 0% 43%;
+}
+.footer1 .ul1{
+    margin:5px 0px 0px 450px;
+    padding-bottom: 100px;
+}
+
+.footer1 ul li{
+  margin: 0px 30px 25px 30px;
+}
+.footer1 ul li img{
+    border-radius: 58px;
+    width: 30px;
+    height: 30px;
+}
+.footer1 .z{
+    margin-left: 50px;
+}
+.footer1 ul li .pin{
+    border-radius: 45px;
+}
+.copyrights{
+    color: grey;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    /*Nav bar*/
+
+    #logo{
+        font-size: 27px;
+        margin: 25px 0px 0px 30px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .UL {
+        display: none; /* Hide the nav items by default on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+        z-index: 999;
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+
+    .UL li {
+        margin: 0px 0;
+        background-color: gray;
+        margin-left: 20px;
+    }
+
+    .UL li:hover{
+        background-color: gray;
+    }
+
+    .introbutton{
+        width: 100%;
+        height:50px;
+        background-color: black;
+    }
+
+    /* Hamburger menu styling */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin: 25px 0 0 150px;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 6px;
+        background-color: black;
+        transition: 0.4s;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+
+    .navbar.active .UL {
+        display: flex; /* Show the nav items when hamburger is active */
+    }
+
+    .menscollection-head-img h2{
+        text-align: right;
+        font-size: 24px;
+        padding:0;
+        margin: 20px 15px 0px 30%;
+    }
+
+    /*Footer*/
+
+    .footer1{
+        width: 100%;
+        height: 700px;
+        color: white;
+        margin: 0;
+    }
+    .footer1 .z{
+        padding: 30% 5% 0% 27%;
+        height: 80px;
+        width: 80px;
+    }
+    .footer1 .ul1{
+        margin:0px;
+        margin:50px 0 100px 10px;
+    }
+    
+    .footer1 ul li{
+      margin: 0px;
+    }
+    .footer1 ul li img{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin: 8px;
+    }
+    .footer1 .z{
+        margin-left: 50px;
+    }
+    .footer1 ul li .pin{
+        border-radius: 22px;
+    }
+    .copyrights{
+        margin-top: 70px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
